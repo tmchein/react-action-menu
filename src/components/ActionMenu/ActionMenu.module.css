@@ -1,0 +1,38 @@
+.action-menu-button {
+  background-color: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.56);
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+.action-menu-button-active {
+  background-color: #f1f1f1;
+}
+
+.action-menu-list-box {
+  max-width: 200px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid rgba(209, 209, 209, 0.56);
+  position: absolute;
+  border-radius: 0.3rem;
+  list-style: none;
+  margin-top: -1px;
+  box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.26);
+}
+
+.action-menu-item {
+  padding: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #eee;
+  }
+}
